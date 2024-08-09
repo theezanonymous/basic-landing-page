@@ -1,0 +1,119 @@
+body{
+    font-family:"Roboto",sans;
+}
+.header{
+    background-color: #1f2937;
+    display:flex; justify-content: space-around;
+    align-items: center;
+
+}
+.h{
+    font-size: 24px; color: #F9FAF8;
+}
+ul{list-style-type:none;}
+.links{ 
+    display:flex; gap: 30px;
+}
+li{
+    font-size: 18px; color: #E5E7EB; text-decoration:none;
+}
+.everything1{
+    background-color: #1f2937;
+    display: flex; justify-content: center; align-items:center;
+}
+.content1{
+    margin: 100px;
+    display: flex;
+    width: 900px;
+    gap: 45px;
+
+}
+.container1{
+
+    display:flex; flex-direction: column;
+    align-items: flex-start;
+    gap:15px;
+}
+.desc1header{
+    font-size: 48px; color: #F9FAF8;
+    font-weight:800;
+}
+.desc1content {
+    font-size:18px; color: #E5E7EB;
+}
+button{
+    background-color: #3882F6; font-size: 18px;  color: white;
+    border-radius: 10px; padding: 5px 25px 5px 25px; border: 0px;
+}
+.content2{
+    
+    display:flex;  justify-content: center; align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+.container2{
+    display: flex; gap: 30px;
+}
+.header2{margin: 30px;
+    text-align: center;
+    font-size: 36px; font-weight: 800; color: #1F2937;
+}
+.i4{
+    border: 3px solid#3882F6; border-radius:10px;
+    width: 200px; height: 200px; object-fit: cover;
+}
+li{
+    display: flex; flex-direction: column; gap:10px;
+}
+.idesc{
+    color: gray; text-align: center; width: 200px; 
+}
+.content3{
+  background-color: #E5E7EB;
+  display: flex; justify-content: center; align-items: center;
+  height: 400px;
+}
+.quotebox{ width: 800px;
+    display: flex; flex-direction: column; gap: 10px;
+}
+.quote{
+  align-self: flex-start; 
+  font-size: 36px;  font-style: italic; color: #1F2937;
+}
+.name{
+ align-self: flex-end;  font-weight: 700; font-size: 18px;
+}
+.content4{
+   display: flex; height: 350px; justify-content: center;align-items: center;
+}
+.blueBox{
+    width: 700px; height: 100px;
+    padding: 25px;
+    display: flex; justify-content:center; background-color: #3882F6;
+    align-items: center;
+    color:white; gap: 50px;
+    border-radius:7px;
+}
+.leftSide{
+    display: flex;
+    flex-direction: column; align-items: flex-start;
+}
+.header4{
+    font-weight: 700; font-size: 22px;
+}
+.desc4{
+    font-size: 15px;
+}
+.b2{
+    border-radius: 7px;
+    border: 2px solid white;
+}
+.img1{
+    max-width: 450px; max-height: auto;
+}
+.footer{
+    background-color: #1F2937;
+    color: white; display: flex; justify-content: center; align-items: center;
+    height: 100px;
+
+}
